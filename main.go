@@ -8,6 +8,6 @@ import (
 
 // to run a function individually, use kata.functionName. All functions match their file name in the kata directory
 func main() {
-	x := kata.IsDivisible(7, 12, 5)
+	x := kata.DNAStrand("ATTGC")
 	fmt.Println(x)
 }
